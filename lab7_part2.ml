@@ -72,7 +72,7 @@ the result "red_channel".
 ......................................................................*)
 
 let red_channel : int = 
-  Color.red (Color.color_named Color.Red) ;;;;
+  Color.red (Color.color_named Color.Red) ;;
 
 (* We hope you'll find the module system quite useful, once you get
 the hang of the conventions.
