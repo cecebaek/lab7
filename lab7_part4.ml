@@ -93,7 +93,7 @@ your Stack module to return a new stack with the following strings
 pushed in order: "Computer", "Science", "51".
 ......................................................................*)
 
-let s = 
+let s () = 
   let open Stack in
   empty
   |> push "Computer"
